@@ -1,0 +1,9 @@
+#Write your function here
+def odd_indices(my_list):
+  nova = []
+  for indeks in range(1, len(my_list), 2):
+    nova.append(my_list[indeks])
+  return nova
+
+#Uncomment the line below when your function is done
+print(odd_indices([4, 3, 7, 10, 11, -2]))
