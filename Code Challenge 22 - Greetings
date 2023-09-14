@@ -1,0 +1,9 @@
+#Write your function here
+def add_greetings(names):
+  nova = []
+  for ime in names:
+    nova.append("Hello, " + ime)
+  return nova  
+
+#Uncomment the line below when your function is done
+print(add_greetings(["Owen", "Max", "Sophie"]))
