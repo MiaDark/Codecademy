@@ -1,0 +1,9 @@
+#Write your function here
+def divisible_by_ten(nums):
+  brojac = 0
+  for num in nums:
+    if num % 10 == 0:
+      brojac += 1
+  return brojac    
+#Uncomment the line below when your function is done
+print(divisible_by_ten([20, 25, 30, 35, 40]))
